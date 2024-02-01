@@ -1,0 +1,98 @@
+@import "../../styles/colors.scss";
+
+.wrap {
+  // height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.linksContainer {
+  display: flex;
+  width: 230px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  gap: 40px;
+}
+
+.link {
+  width: 123px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  cursor: pointer;
+  height: 24px;
+  &:hover {
+    color: $primary;
+  }
+  &:hover svg path {
+    fill: $primary;
+  }
+  //   margin-bottom: 40px;
+
+  .linkIcon {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+  }
+
+  .linkText {
+    width: 70px;
+    text-align: left;
+    color: #80858b;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    &:hover {
+      color: $primary;
+    }
+  }
+}
+
+.activeLink {
+  width: 123px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  cursor: pointer;
+  height: 24px;
+  &:hover {
+    color: $primary;
+  }
+  & svg path {
+    fill: $primary;
+  }
+  //   margin-bottom: 40px;
+
+  .linkIcon {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+  }
+
+  .linkText {
+    width: 70px;
+    text-align: left;
+    color: $primary;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    &:hover {
+      color: $primary;
+    }
+  }
+}
+
+.footer{
+  // margin-top: 770px;
+  position: absolute;
+  bottom: 100px;
+  left: 50px;
+}

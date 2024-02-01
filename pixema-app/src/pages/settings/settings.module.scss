@@ -1,0 +1,77 @@
+@import "../../styles/colors.scss";
+
+.settingsContainer {
+  width: 1186px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.profilInpts {
+  background-color: $dark;
+  padding: 40px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  .input {
+    width: 533px;
+    margin-right: 40px;
+  }
+}
+.passwordInpts {
+  background-color: $dark;
+  padding: 40px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.passwordInpt {
+  width: 533px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+}
+.colorModeInf {
+  background-color: $dark;
+  padding: 40px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.colorText {
+  display: flex;
+  flex-direction: column;
+  color: $white;
+  p {
+    color: $light;
+    margin: 4px 0 0;
+  }
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+  margin-top: 48px;
+
+  .cancelBtn {
+    padding: 16px 108px;
+  }
+  .saveBtn {
+    padding: 16px 108px;
+    margin-left: 40px;
+  }
+}
+
+.lightProfilInpts,
+.lightPasswordInpts,
+.lightColorModeInf {
+  background-color: $light;
+  .colorText {
+    color: $dark;
+    p {
+      color: $graphite;
+    }
+  }
+}
